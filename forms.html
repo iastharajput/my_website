@@ -3,42 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> this is a form</title>
-</head>
+    <title> this is a form</title> 
+
+</head> 
+
 <body>
     <h2>This is html form</h2>
-    <form> 
+    <form>
         <div>
-        Name: <input type="text">
+             <label for="name"> Name </label>
+                <input type="text" name=" Myname" id="name">
         </div>
+
         <br>
+
         <div>
-        Role:  <input type="text">
-            </div>
-        <br>
-        <div>
-        Email: <input type="email" name="My email">   
+             <label for="role">Role</label>
+                <input type="text" name="my role" id="role">
         </div>
-           <br>
+
+        <br>                                                                                                                  
+          
+        <div >
+              <label for="email">Email</label>
+                 <input type="email" name="My email" id="email">   
+        </div>
+
+           <br> 
+
         <div> 
-        Date: <input type="date">
+             <label for="date">Date</label>
+                 <input type="date" id="date">
         </div>
+
         <br>
+
         <div>
-            <!-- checkboxes are used to choose one option only -->
-            gender: Male<input type="radio" name="my gender">
-            Female<input type="radio" name ="my gender" >
+             <!-- checkboxes is like yes or no while radio is like multiple choice question  -->
+              <label for="gender">gender</label>
+
+                 Male<input type="radio" name="my gender" id="gender">
+
+                 Female<input type="radio" name ="my gender" id="gender">
+        </div> 
+        
+        <br> 
+
+        <div> 
+              <!-- wriite checked after checkbox to keep it checked by default -->
+              Are you eligible? <input type="checkbox" checked>
         </div>
+
+        <br> 
+
+        <div>   
+             write about yourself <br><textarea name="my text " id="" cols="30" rows="10"></textarea>
+        </div>
+
+        <br>
+
+        <div>
+
+              <label for="car">Car</label>
+
+              <select name="my car" id="car">
+
+               <option value="car">Fortuner</option>
+
+               <option value="car">swift</option>
+
+               <option value="car">Indica</option>
+
+               </select>
+        </div>
+
+         
+        <br
+
+              <!-- alt + arrow key can move the selected text without moving other texts -->
+        <div>
             
-            <div>
-                submit: <input type ="submit" value="submit now">
+                submit: <input type ="submit" value="submit now" id="submit">
             
                 reset: <input type="reset" value="reset">
-            </div>
-
-
-
+        </div>
     </form>
-    
-</body>
+  </body>
 </html>
