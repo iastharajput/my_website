@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alignment</title>
+    <style>
+        .tac-one-regular {
+  font-family: "Tac One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+    .container
+        {
+            border: 1px black dotted ;
+            width: 900px;
+            background: rgb(164, 209, 164);  
+            padding: 25px 20px;
+            margin: auto;
+            font:  italic!important;
+        }
+        
+        
+         .item{
+            background:rgba(255, 174, 0, 0.938);
+            border: solid black 3px;
+            margin: 30px;
+            padding:2cm;
+        } 
+        #fruits{
+              float: left;
+              width:30%;
+         }
+        
+         #computer{
+              float: right;
+              width:30%;
+         }
+         #stationary{
+            clear: both;
+         }
+         p{
+            text-align: justify;
+         }
+
+
+    </style>
+</head>
+<!-- it isn't working though -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tac+One&display=swap" rel="stylesheet">
+<body>
+    <div class="container">
+
+        <div id="fruits" class="item">
+            <h3>fruits</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo consequatur temporibus saepe, excepturi maiores, sed, asperiores dicta corrupti fuga ipsum eos ullam eligendi rerum hic! Est soluta dolorum quasi magni?</p>
+        </div>
+
+        <div id="computer" class="item">
+            <h3>computer</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo consequatur temporibus saepe, excepturi maiores, sed, asperiores dicta corrupti fuga ipsum eos ullam eligendi rerum hic! Est soluta dolorum quasi magni?</p>
+        </div>
+
+        <div id="stationary" class="item">
+            <h3>stationary</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo consequatur temporibus saepe, excepturi maiores, sed, asperiores dicta corrupti fuga ipsum eos ullam eligendi rerum hic! Est soluta dolorum quasi magni?</p>
+        </div>
+
+
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+
+<style>
+    /* css position: static, absolute, relative ,
+    fixed, sticky  */
+        .box{
+           display:inline-block;
+            border: 2px solid red;
+        
+            width: 150px;
+            height: 100px;
+            padding: 1cm;
+        }
+        #box3{
+            /* relative-relative to its original position and will leave a gap  */
+           position:relative;
+           top: 34px;
+           left: 32px;
+        }
+        #box2{
+            /*fixed- positions the element relative to browser window */
+            position: fixed;
+            right: 3px;
+            bottom:2px; 
+        
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="box" id="box1">this is a box</div>
+    <div class="box" id="box2">this is a box</div>
+    <div class="box" id="box3">this is a box</div>
+    <div class="box" id="box4">this is a box</div>
+</body>
+</html>

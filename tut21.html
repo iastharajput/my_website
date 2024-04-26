@@ -3,49 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>allingmennt </title>
-
+    <title>pseudo selector & more designing</title>
     <style>
         .container{
-            width: 900px;
-            border: gray 5px;
+            border: 3px solid black;
+            background-color:rgb(241, 196, 204);
+            width: auto;
+            margin:1cm;
+            padding: 1cm;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: bold;
+
         }
-         .item{
-            border: 3px;
-            background-color: rgb(120, 120, 143);
-            padding:2cm ;
-         }
+        .btn{
+            background-color: aqua;
+            padding: 6px;
+            border: none;
+            cursor: pointer;
+            font-size:13px;
+            border: radius 2px;
+
+        a{
+                text-decoration:none;
+                color: black;
+        }
+        }
+        a:hover{
+            background-color: blue;
+            color: black;
+
+        }
+        a:visited{
+            color: brown;
+
+        }
+        a:active{
+            color:yellow;
+        }
 
     </style>
-
-        
-
 </head>
 <body>
+    <div class="container" id="cont1">
+        <h3>this is my paragraph </h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus sunt consectetur voluptatum sed ipsum quis saepe iste officia nobis facere nemo possimus hic adipisci sequi, tempore facilis suscipit voluptatibus ea.</p>
+        <a href="google.com" class="btn">google.com</a>
+        <a href="https://www.instagram.com/direct/inbox/" target=blank class="btn">instagram.com</a>
 
- <div class="container">
-
-    <div id="fruits" class="item">
-        <h3>friuts</h3>
-        <p id="fruitpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, esse amet voluptates error maxime obcaecati eius voluptatibus accusamus ad sit quidem consequuntur ratione quaerat pariatur qui mollitia exercitationem eos vel!</p>   
+        <button class="btn">contact us more</button>
     </div>
-
-
-    <div id="computer" class="item">
-       <h3>computer</h3>
-       <p id="computerpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, esse amet voluptates error maxime obcaecati eius voluptatibus accusamus ad sit quidem consequuntur ratione quaerat pariatur qui mollitia exercitationem eos vel!</p>
-    </div>
-
-
-    <div id="stationary" class="item">
-        <h3>stationary </h3>
-        <p id="stationarypara" class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio nobis, iure, ex provident necessitatibus earum quod distinctio molestiae reiciendis nesciunt rerum velit natus possimus voluptatibus eos nihil minus consectetur laborum!</p>
-    </div> 
-<!-- the border in conatainer is not working @irohanrajput -->
-
-</div>    
-
-    
     
 </body>
 </html>
